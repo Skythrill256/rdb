@@ -1,0 +1,14 @@
+[package]
+name = "parser"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+derive_more = { workspace = true }
+miette = { workspace = true }
+nom = "7.1.1"
+nom_locate = "4.0.0"
+nom-supreme = "0.8.0"
+serde = { workspace = true }
+thiserror = { workspace = true }
+bigdecimal = { workspace = true }

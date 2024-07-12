@@ -1,0 +1,12 @@
+[name]
+name = " fg"
+
+[workspace]
+members = ["crates/*"]
+
+[workspace.dependencies]
+derive_more = "0.99.17"
+bigdecimal = { version = "0.3.0", features = ["serde"] }
+miette = "5.5.0"
+serde = { version = "1.0.151", features = ["derive"] }
+thiserror = "1.0.38"
